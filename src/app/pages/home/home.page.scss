@@ -1,0 +1,27 @@
+.header-menu {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.listMenu {
+  height: 100%;
+}
+
+ion-header, .homeHeader {
+  display: flex;
+  padding-left: 20px;
+  background-color: #dc143c;
+
+  .toolbar-content {
+    display: flex;
+    align-items: center;
+
+    .menu-grid {
+      font-size: 30px;
+    }
+  }
+}
+
+ion-content, .homeContent {
+  --background: white;
+}
